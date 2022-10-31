@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/colorGame.css">
+</head>
+
+
+<body>
+    <main>
+        <div class="start-interface">
+            <div class="describe">
+                <h1 class="title">Color Game</h1>
+                <h2>點擊START開始遊戲 <br>於60內找出不同顏色的方塊 <br>點錯方塊或提示皆會扣分 </h2>
+            </div>
+            <button class="start">Start</button>
+        </div>
+        <div class="game-page">
+            <div class="score"></div>
+            <div class="container">
+                <div id="box"></div>
+            </div>
+        </div>
+
+
+        <div class="time-box">
+            <span class="time"></span>
+            <button class="pause">暫時計時</button>
+            <button class="hint">SOS</button>
+        </div>
+
+        <div class="over-interface">
+            <h1 class="total">總分:</h1>
+            <h2 class="comment"></h2>
+            <button class="restart">ReStart</button>
+        </div>
+    </main>
+
+
+<script src="./colorGame.js"></script>
+</body>
+
+</html>
